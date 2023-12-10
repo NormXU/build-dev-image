@@ -1,0 +1,1 @@
+./docker/build_image.sh -g -cv cu121 -py 3.10 -torch 2.1.1 -torchvision 0.16.1

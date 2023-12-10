@@ -1,0 +1,15 @@
+anyconfig
+munch
+nose
+packaging
+pyyaml
+regex
+setuptools
+setproctitle
+ninja
+torch-tb-profiler
+tensorboard
+lmdb
+imgaug
+wandb
+gradio

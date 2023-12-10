@@ -1,0 +1,10 @@
+accelerate
+transformers
+diffusers
+bitsandbytes
+huggingface_hub
+tokenizers
+datasets
+safetensors
+peft
+
