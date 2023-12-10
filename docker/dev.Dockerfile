@@ -148,7 +148,7 @@ ENV PATH="/home/venv/bin:$PATH"
 EXPOSE 22 8080
 ENV TZ Asia/Shanghai
 
-WORKDIR /home/norminui
-ENV TEMP=/home/norminui/tmp
+WORKDIR /home/workspace
+ENV TEMP=/home/workspace/tmp
 
 CMD /usr/sbin/sshd -D

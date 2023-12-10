@@ -18,7 +18,7 @@ Currently, it supports the following configurations:
 - `-torchvision, --torchvision_version` specify pytorch-vision version
 - `-g, --gpu` specify to use gpu
 
-port 22 and port 8080 are exposed. 
+port 22 and port 8080 are exposed. The account is `root` and password is `root`. You can connect with the docker env with ssh
 ## Quick Start
 an example:
 ```bash
