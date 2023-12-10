@@ -10,12 +10,17 @@ Currently, it supports the following configurations:
 | -cv, --cudaversion                  | specify to cuda version to use                                                                                                                                                              |
 | -t, --tag                           | specify tag name for docker image                                                                                                                                                           |
 | -ipex, --build-with-ipex            | specify to build with intel_extension_for_pytorch                                                                                                                                           |
-| -py, --pythonversion                | specify to python version to use: Possible values: 3.8 3.9 3.10                                                                                                                             |
+| -py, --pythonversion                | specify to python version to use: Possible values: 3.8 3.9 3.10, 3.11                                                                                                                       |
 | -torch, --torch_version             | specify pytorch version                                                                                                                                                                     |
 | -torchvision, --torchvision_version | specify torch-vision version                                                                                                                                                                |
 | -g, --gpu                           | specify to use gpu                                                                                                                                                                          |
 
-port 22 and port 8080 are exposed. The account is `root` and password is `root`. You can connect with the docker env with ssh
+- exposed port: 22, 8080
+- username: `root`
+- password: `root`
+- Default Python path: `/home/venv/bin/python`
+
+You can connect with the docker container through ssh in your favorite IDE.
 
 ## Quick Start
 
