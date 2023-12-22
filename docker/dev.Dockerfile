@@ -109,6 +109,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
     fakeroot \
     ca-certificates \
     dpkg-dev \
+    tmux \
     sudo \
     g++ \
     git \
